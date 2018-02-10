@@ -3,5 +3,5 @@
 s6-setuidgid root homebridge-config-ui-x \
   -U /homebridge \
   -P /homebridge/node_modules \
-  -H /usr/local/lib/node_modules/homebridge \
+  -H /usr/local/lib/node_modules/@oznu/homebridge \
   2>&1 | tee -a /homebridge/logs/homebridge.log
